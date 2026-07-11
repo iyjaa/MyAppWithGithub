@@ -1,0 +1,5 @@
+[33m48d8308[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m chore: upgrade Gradle to 9.3.1 for AGP 9.1.0 compatibility
+[33m40dafef[m fix: yaml syntax error missing closing brace
+[33m287bc11[m[33m ([m[1;33mtag: [m[1;33mv1.0[m[33m)[m get releases
+[33m4ec8f08[m fix minSdk
+[33mc8791e9[m fix gradle

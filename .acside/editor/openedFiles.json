@@ -4,14 +4,14 @@
       "file": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/app/build.gradle.kts",
       "selection": {
         "end": {
-          "column": 56,
-          "index": 522,
-          "line": 16
+          "column": 19,
+          "index": 274,
+          "line": 9
         },
         "start": {
-          "column": 56,
-          "index": 522,
-          "line": 16
+          "column": 19,
+          "index": 274,
+          "line": 9
         }
       }
     },
@@ -19,17 +19,62 @@
       "file": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/.github/workflows/build.yml",
       "selection": {
         "end": {
-          "column": 8,
-          "index": 639,
+          "column": 54,
+          "index": 685,
           "line": 29
         },
         "start": {
-          "column": 8,
-          "index": 639,
+          "column": 54,
+          "index": 685,
           "line": 29
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/gradle/libs.versions.toml",
+      "selection": {
+        "end": {
+          "column": 16,
+          "index": 41,
+          "line": 2
+        },
+        "start": {
+          "column": 16,
+          "index": 41,
+          "line": 2
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/settings.gradle.kts",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 331,
+          "line": 19
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/build.gradle.kts",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 407,
+          "line": 11
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/.github/workflows/build.yml"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/settings.gradle.kts"
 }

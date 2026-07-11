@@ -1,95 +1,20 @@
 {
   "allFiles": [
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/app/build.gradle.kts",
+      "file": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/app/src/main/kotlin/com/jaaDev/mycompose/myfirstapp/MainActivity.kt",
       "selection": {
         "end": {
-          "column": 22,
-          "index": 296,
-          "line": 11
+          "column": 36,
+          "index": 1833,
+          "line": 53
         },
         "start": {
-          "column": 22,
-          "index": 296,
-          "line": 11
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/.github/workflows/build.yml",
-      "selection": {
-        "end": {
-          "column": 4,
-          "index": 244,
-          "line": 16
-        },
-        "start": {
-          "column": 4,
-          "index": 244,
-          "line": 16
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/gradle/libs.versions.toml",
-      "selection": {
-        "end": {
-          "column": 10,
-          "index": 21,
-          "line": 1
-        },
-        "start": {
-          "column": 10,
-          "index": 21,
-          "line": 1
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/settings.gradle.kts",
-      "selection": {
-        "end": {
-          "column": 0,
-          "index": 331,
-          "line": 19
-        },
-        "start": {
-          "column": 0,
-          "index": 0,
-          "line": 0
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/build.gradle.kts",
-      "selection": {
-        "end": {
-          "column": 0,
-          "index": 407,
-          "line": 11
-        },
-        "start": {
-          "column": 0,
-          "index": 407,
-          "line": 11
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/gradle/wrapper/gradle-wrapper.properties",
-      "selection": {
-        "end": {
-          "column": 69,
-          "index": 134,
-          "line": 2
-        },
-        "start": {
-          "column": 69,
-          "index": 134,
-          "line": 2
+          "column": 36,
+          "index": 1833,
+          "line": 53
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/.github/workflows/build.yml"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/app/src/main/kotlin/com/jaaDev/mycompose/myfirstapp/MainActivity.kt"
 }

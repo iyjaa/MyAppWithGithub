@@ -42,8 +42,17 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         horizontalArrangement = Arrangement.Center,
         verticalAlignment = Alignment.CenterVertically
     ) {
-        Text(
-            text = "Hello $name!"
+        OutLinedTextField(
+            value = nama,
+            onValueChange = {
+                nama = it
+            }
+            label = {    
+                Text("nama")
+            }
+            placeholder = {
+                Text("masukan nama: ")
+            }
         )
     }
 }

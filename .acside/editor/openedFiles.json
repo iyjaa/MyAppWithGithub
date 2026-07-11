@@ -1,50 +1,35 @@
 {
   "allFiles": [
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/.github/workflows/build.yml",
-      "selection": {
-        "end": {
-          "column": 57,
-          "index": 538,
-          "line": 26
-        },
-        "start": {
-          "column": 57,
-          "index": 538,
-          "line": 26
-        }
-      }
-    },
-    {
       "file": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/app/build.gradle.kts",
       "selection": {
         "end": {
-          "column": 0,
-          "index": 1371,
-          "line": 48
+          "column": 56,
+          "index": 522,
+          "line": 16
         },
         "start": {
-          "column": 0,
-          "index": 0,
-          "line": 0
+          "column": 56,
+          "index": 522,
+          "line": 16
         }
       }
     },
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/gradle/libs.versions.toml",
+      "file": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/.github/workflows/build.yml",
       "selection": {
         "end": {
-          "column": 25,
-          "index": 144,
-          "line": 6
+          "column": 8,
+          "index": 639,
+          "line": 29
         },
         "start": {
-          "column": 25,
-          "index": 144,
-          "line": 6
+          "column": 8,
+          "index": 639,
+          "line": 29
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/gradle/libs.versions.toml"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/.github/workflows/build.yml"
 }

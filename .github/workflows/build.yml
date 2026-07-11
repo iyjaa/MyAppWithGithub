@@ -14,7 +14,10 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-          cache: gradle          # <- ini mempercepat build
+          cache: gradle
+
+      - name: Grant execute permission for gradlew
+        run: chmod +x gradlew
 
       - run: ./gradlew assembleDebug
 

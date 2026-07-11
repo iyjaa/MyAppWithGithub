@@ -4,14 +4,14 @@
       "file": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/app/src/main/kotlin/com/jaaDev/mycompose/myfirstapp/MainActivity.kt",
       "selection": {
         "end": {
-          "column": 11,
-          "index": 2827,
-          "line": 88
+          "column": 4,
+          "index": 1427,
+          "line": 41
         },
         "start": {
-          "column": 11,
-          "index": 2827,
-          "line": 88
+          "column": 4,
+          "index": 1427,
+          "line": 41
         }
       }
     }

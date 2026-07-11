@@ -36,13 +36,17 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
+fun Greeting(
+    name: String,
+    val sandi: String,
+    modifier: Modifier = Modifier) {
+    
     Row(
         modifier = modifier.fillMaxSize(),
         horizontalArrangement = Arrangement.Center,
         verticalAlignment = Alignment.CenterVertically
     ) {
-        OutLinedTextField(
+        OutlinedTextField(
             value = nama,
             onValueChange = {
                 nama = it
@@ -52,6 +56,36 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
             }
             placeholder = {
                 Text("masukan nama: ")
+            }
+        )
+        
+        spacer(modifier = Modifier.width(16.dp))
+        
+        outlinedTextField(
+            value = sandi,
+            onValueChange = {
+                sandi = it
+            }
+            label(
+                Text("sandi: ")
+            )
+            placeholder(
+                Text("masukkan password")
+            )
+            Button(
+                onClick = { /* aksi saat diklik */ },
+                modifier = Modifier.padding(8.dp),
+                enabled = true,
+                shape = RoundedCornerShape(8.dp),
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = Color.Blue,
+                    contentColor = Color.White
+                ),
+                elevation = ButtonDefaults.buttonElevation(4.dp),
+                border = null,
+                contentPadding = PaddingValues(16.dp)
+                ) {
+                Text("Klik Saya")
             }
         )
     }

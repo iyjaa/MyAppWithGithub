@@ -4,14 +4,14 @@
       "file": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/app/build.gradle.kts",
       "selection": {
         "end": {
-          "column": 19,
-          "index": 274,
-          "line": 9
+          "column": 38,
+          "index": 152,
+          "line": 3
         },
         "start": {
-          "column": 19,
-          "index": 274,
-          "line": 9
+          "column": 38,
+          "index": 152,
+          "line": 3
         }
       }
     },
@@ -76,5 +76,5 @@
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/settings.gradle.kts"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/app/build.gradle.kts"
 }

@@ -5,16 +5,46 @@
       "selection": {
         "end": {
           "column": 57,
-          "index": 492,
-          "line": 23
+          "index": 538,
+          "line": 26
         },
         "start": {
           "column": 57,
-          "index": 492,
-          "line": 23
+          "index": 538,
+          "line": 26
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/app/build.gradle.kts",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 1371,
+          "line": 48
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/gradle/libs.versions.toml",
+      "selection": {
+        "end": {
+          "column": 25,
+          "index": 144,
+          "line": 6
+        },
+        "start": {
+          "column": 25,
+          "index": 144,
+          "line": 6
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/.github/workflows/build.yml"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/gradle/libs.versions.toml"
 }

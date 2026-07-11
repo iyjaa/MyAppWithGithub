@@ -4,14 +4,14 @@
       "file": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/app/build.gradle.kts",
       "selection": {
         "end": {
-          "column": 38,
-          "index": 152,
-          "line": 3
+          "column": 22,
+          "index": 296,
+          "line": 11
         },
         "start": {
-          "column": 38,
-          "index": 152,
-          "line": 3
+          "column": 22,
+          "index": 296,
+          "line": 11
         }
       }
     },
@@ -34,14 +34,14 @@
       "file": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/gradle/libs.versions.toml",
       "selection": {
         "end": {
-          "column": 16,
-          "index": 41,
-          "line": 2
+          "column": 10,
+          "index": 21,
+          "line": 1
         },
         "start": {
-          "column": 16,
-          "index": 41,
-          "line": 2
+          "column": 10,
+          "index": 21,
+          "line": 1
         }
       }
     },
@@ -70,11 +70,26 @@
         },
         "start": {
           "column": 0,
-          "index": 0,
-          "line": 0
+          "index": 407,
+          "line": 11
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/gradle/wrapper/gradle-wrapper.properties",
+      "selection": {
+        "end": {
+          "column": 69,
+          "index": 134,
+          "line": 2
+        },
+        "start": {
+          "column": 69,
+          "index": 134,
+          "line": 2
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/app/build.gradle.kts"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/MyAppWithGithub/gradle/wrapper/gradle-wrapper.properties"
 }

@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             ComposeEmptyActivityTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
+                    loginNavigation(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -32,71 +32,83 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(modifier: Modifier = Modifier) {
+package com.jaaDev.mycompose.myfirstapp
 
-    var nama by remember { mutableStateOf("") }
-    var sandi by remember { mutableStateOf("") }
-    var hasil by remember { mutableStateOf("") }
+import androidx.compose.foundation.layout.*
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.input.PasswordVisualTransformation
+import androidx.compose.ui.unit.dp
+
+@Composable
+fun LoginScreen(modifier: Modifier = Modifier, onLoginSuccess: () -> Unit) {
+    var username by remember { mutableStateOf("") }
+    var password by remember { mutableStateOf("") }
+    var errorMessage by remember { mutableStateOf("") }
 
     Column(
-        modifier = modifier.fillMaxSize(),
+        modifier = modifier
+            .fillMaxSize()
+            .padding(24.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
         Text(
-            text = "login to apk",
+            text = "Login",
+            style = MaterialTheme.typography.headlineMedium,
             color = Color.Blue
         )
 
-        Spacer(modifier = Modifier.padding(16.dp))
+        Spacer(modifier = Modifier.height(24.dp))
 
         OutlinedTextField(
-            value = nama,
-            onValueChange = { nama = it },
-            label = { Text("nama") },
-            placeholder = { Text("masukkan nama") }
+            value = username,
+            onValueChange = { username = it },
+            label = { Text("Username") },
+            modifier = Modifier.fillMaxWidth(),
+            singleLine = true
         )
 
-        Spacer(modifier = Modifier.height(16.dp))
+        Spacer(modifier = Modifier.height(12.dp))
 
         OutlinedTextField(
-            value = sandi,
-            onValueChange = { sandi = it },
-            label = { Text("sandi") },
-            placeholder = { Text("masukkan password") }
+            value = password,
+            onValueChange = { password = it },
+            label = { Text("Password") },
+            visualTransformation = PasswordVisualTransformation(),
+            modifier = Modifier.fillMaxWidth(),
+            singleLine = true
         )
 
-        Spacer(modifier = Modifier.height(16.dp))
+        Spacer(modifier = Modifier.height(8.dp))
+
+        if (errorMessage.isNotEmpty()) {
+            Text(
+                text = errorMessage,
+                color = Color.Red,
+                style = MaterialTheme.typography.bodySmall
+            )
+            Spacer(modifier = Modifier.height(8.dp))
+        }
 
         Button(
             onClick = {
-                hasil = "halo, $nama"
+                when {
+                    username.isBlank() -> errorMessage = "Username tidak boleh kosong"
+                    password.isBlank() -> errorMessage = "Password tidak boleh kosong"
+                    username == "admin" && password == "1234" -> {
+                        errorMessage = ""
+                        onLoginSuccess()
+                    }
+                    else -> errorMessage = "Username atau password salah"
+                }
             },
-            modifier = Modifier.padding(8.dp),
-            enabled = true,
-            shape = RoundedCornerShape(8.dp),
-            colors = ButtonDefaults.buttonColors(
-                containerColor = Color.Blue,
-                contentColor = Color.White
-            ),
-            contentPadding = PaddingValues(16.dp)
+            modifier = Modifier.fillMaxWidth()
         ) {
             Text("Login")
         }
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        Text(
-            text = hasil,
-            color = Color.Red
-        )
-    }
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    ComposeEmptyActivityTheme {
-        Greeting()
     }
 }

@@ -11,7 +11,6 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.jaaDev.mycompose.myfirstapp.ui.theme.ComposeEmptyActivityTheme
 
@@ -43,6 +42,13 @@ fun Greeting(modifier: Modifier = Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
+        Text(
+          text = "login to apk"
+          Color = Color.Blue
+        )
+        
+        Spacer(modifier = Modifier.padding(16.dp))
+        
         OutlinedTextField(
             value = nama,
             onValueChange = { nama = it },
@@ -85,8 +91,6 @@ fun Greeting(modifier: Modifier = Modifier) {
         )
     }
 }
-
-@Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
     ComposeEmptyActivityTheme {
